@@ -24,7 +24,7 @@ This repository contains a bit of boilerplate for getting me started with Backbo
 	```
 	Just keep using `spec.push` to add each file. Remember, don't add the .js extension to the file name.
 
-6. Run `testem` from the command line and watch your tests fail! (pass?)
+6. Run `testem` from the command line and watch your tests fail! (pass?) You can make changes to any file within the folders specified in `src_files` and as soon as you save the file, Testem will refresh your launchers.
 
 ##Updating testem.yml on Windows
 I don't know if this is specific to me and my computer, but I couldn't get Testem to work when I edited the configuration files directly in my normal code editor. Testem reads the file assuming it is in UTF-8 format, and for whatever reason that wasn't what my editor was saving it in. I opened the file in Notepad and hit "Save As" and near the bottom of the window I changed "Encoding" to "UTF-8".
