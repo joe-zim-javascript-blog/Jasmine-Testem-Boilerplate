@@ -1,0 +1,8 @@
+﻿framework: jasmine 
+test_page: test/index.html
+src_files:
+- js/**
+- test/**
+launch_in_dev:
+- Chrome
+- Firefox
