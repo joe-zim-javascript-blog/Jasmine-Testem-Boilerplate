@@ -1,0 +1,8 @@
+{
+  "name": "jasmine-testem-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for getting started with Backbone Marionette/Twitter Bootstrap/RequireJS and files and configuration setup to use Testem.",
+  "repository": "https://github.com/joe-zim-javascript-blog/Jasmine-Testem-Boilerplate",
+  "author": "Joe Zimmerman",
+  "license": "GPL"
+}
