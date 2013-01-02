@@ -1,7 +1,5 @@
 require.config({
-
 	baseUrl: "../js",
-
 	urlArgs: 'cb=' + Math.random(),
 
 	paths: {
@@ -25,25 +23,14 @@ require.config({
 	},
 
 	shim: {
-		// Backbone library depends on lodash and jQuery.
 		'backbone': {
 			deps: ["jquery", "underscore"],
 			exports: "Backbone"
 		},
 
-		// Socket.io needs to export its library
-		'io': {
-			deps: [],
-			exports: 'io'
-		},
-
-		// Multiple jQuery plugins. Do not export anything specific. It's all exposed through `$`
 		'bootstrap': ['jquery']
 	}
-
 });
-
-
 
 require([], function(){
 	var jasmineEnv = jasmine.getEnv();
