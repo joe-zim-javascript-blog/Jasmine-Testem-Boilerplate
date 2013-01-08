@@ -4,7 +4,7 @@ define(
 
 		describe("Unit Testing", function() {
 			it("is fun", function() {
-				expect(1);
+				expect(1).toEqual(1);
 			});
 
 			it("is good for you", function() {
