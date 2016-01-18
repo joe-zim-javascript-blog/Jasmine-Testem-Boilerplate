@@ -1,3 +1,6 @@
+#UNSUPPORTED!
+This repo is no longer supported. Pretty sure it still works, but it's full of old versions of software.
+
 #Jasmine-Testem Boilerplate
 This repository contains a bit of boilerplate for getting me started with Backbone Marionette/Twitter Bootstrap/RequireJS and sets up the necessary files and configuration to use Testem.
 ##Getting Started
